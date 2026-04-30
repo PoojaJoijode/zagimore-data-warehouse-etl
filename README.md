@@ -12,20 +12,15 @@ The purpose of this project is to design and implement a data warehousing workfl
 zagimore-data-warehouse-etl-github-ready/
 ├── README.md
 ├── .gitignore
-├── docs/
-│   ├── architecture.md
-│   ├── review_notes.md
-│   └── run_order.md
-└── sql/
-    ├── 01_data_staging_schema.sql
-    ├── 02_data_warehouse_schema.sql
-    ├── 03_calendar_and_base_dimension_loads.sql
-    ├── 04_initial_etl_load.sql
-    ├── 05_revenue_fact_initial_load.sql
-    ├── 06_revenue_fact_refresh_procedures.sql
-    ├── 07_product_dimension_refresh_scd_type2.sql
-    ├── 08_category_and_daily_store_aggregates.sql
-    └── 09_region_aggregate.sql
+├── 01_data_staging_schema.sql
+├── 02_data_warehouse_schema.sql
+├── 03_calendar_and_base_dimension_loads.sql
+├── 04_initial_etl_load.sql
+├── 05_revenue_fact_initial_load.sql
+├── 06_revenue_fact_refresh_procedures.sql
+├── 07_product_dimension_refresh_scd_type2.sql
+├── 08_category_and_daily_store_aggregates.sql
+└── 09_region_aggregate.sql
 ```
 
 ## File Execution Order
